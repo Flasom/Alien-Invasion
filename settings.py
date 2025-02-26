@@ -32,7 +32,7 @@ class Settings():
     
     def initialize_dynamic_settings(self):
         """Inicializa as configuraçãoes que mudam no decorrer do jogo"""
-        self.ship_speed_factor = 1
+        self.ship_speed_factor = 0.5
         self.bullet_speed_factor = 2
         self.alien_speed_factor = 0.2
 
