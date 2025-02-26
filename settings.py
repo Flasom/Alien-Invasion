@@ -19,7 +19,7 @@ class Settings():
         self.bullets_allowed = 3
 
         # Configuração dos alienígenas
-        self.fleet_drop_speed = 10
+        self.fleet_drop_speed = 6
 
         # A taxa com que a velocidade do jogo aumenta
         self.speedup_scale = 1.1
@@ -32,9 +32,9 @@ class Settings():
     
     def initialize_dynamic_settings(self):
         """Inicializa as configuraçãoes que mudam no decorrer do jogo"""
-        self.ship_speed_factor = 1.5
-        self.bullet_speed_factor = 3
-        self.alien_speed_factor = 0.5
+        self.ship_speed_factor = 1
+        self.bullet_speed_factor = 2
+        self.alien_speed_factor = 0.2
 
         # fleet_direction igual a 1 representa a direita; -1 representa a esquerda
         self.fleet_direction = 1 
